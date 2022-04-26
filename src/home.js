@@ -13,7 +13,7 @@ const pageLoad = () => {
     const about = document.createElement("p")
     about.classList.add("about")
 
-    image.src = "../assets/sushi.jpg"
+    image.src = "../assets/welcome.jpg"
     imgDiv.appendChild(image)
     mainContainer.appendChild(imgDiv)
 
