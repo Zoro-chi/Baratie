@@ -1,31 +1,51 @@
-import {pageLoad} from "./home"
+import {home} from "./home"
+import {contact} from "./contact"
+
 
 const header = document.querySelector("#header")
 const navBar = document.createElement("ul")
 
-const home = document.createElement("li")
+const homeTab = document.createElement("li")
 const homeLink = document.createElement("a")
 homeLink.setAttribute("href", "#home")
 homeLink.textContent = "Home"
-home.appendChild(homeLink)
+homeTab.appendChild(homeLink)
 
-const menu = document.createElement("li")
+const menuTab = document.createElement("li")
 const menuLink = document.createElement("a")
 menuLink.setAttribute("href", "#menu")
 menuLink.textContent = "Menu"
-menu.appendChild(menuLink)
+menuTab.appendChild(menuLink)
 
-const contact = document.createElement("li")
+const contactTab = document.createElement("li")
 const contactLink = document.createElement("a")
 contactLink.setAttribute("href", "#contact")
 contactLink.textContent = "Contact"
-contact.appendChild(contactLink)
+contactTab.appendChild(contactLink)
 
-navBar.appendChild(home)
-navBar.appendChild(menu)
-navBar.appendChild(contact)
+navBar.appendChild(homeTab)
+navBar.appendChild(menuTab)
+navBar.appendChild(contactTab)
 header.appendChild(navBar)
 
-pageLoad()
+
+
+const changePage = (() => {
+
+    homeTab.addEventListener("click", ()=>{
+        home()
+    })
+
+    menuTab.addEventListener("click", ()=>{
+        menu()
+    })
+
+    contactTab.addEventListener("click", ()=>{
+        contact()
+    })
+
+})()
+
+home()
 
 console.log("Hello World!")

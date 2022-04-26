@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Water+Brush&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -8,10 +9,10 @@ body{
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    background: url("../assets/sushi.jpg") no-repeat center center fixed;
+    background: url("../assets/massive_pallet_bg.jpg") no-repeat center center fixed;
     background-size: cover;
 }
-body::after{
+/* body::after{
     content: "";
     position: absolute;
     top: 0;
@@ -21,21 +22,30 @@ body::after{
     background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(0, 0, 0));
     opacity: .6;
     z-index: -1;
-}
+} */
 #header{
     width: 100vw;
     display: flex;
     justify-content: center;
     background-color: black;
-    opacity: 0.6;
+    opacity: 0.9;
     height: 10vh;
 }
 img{
     height: 300px;
     width: 300px;
+    border-radius: 100%;
+
+}
+h1{
+    margin-top: -1rem;
+    font-size: 10rem;
+    color: saddlebrown;
+    font-family: 'Water Brush', cursive, sans-serif;
+    letter-spacing: 3px;
 }
 ul{
-    width: 60vw;
+    width: 80vw;
     display: flex;
     justify-content: space-around;
     list-style-type: none;
@@ -44,24 +54,44 @@ ul{
 }
 a{
     text-decoration: none;
+    color: saddlebrown;
+    font-size: 3rem;
+    font-weight: bold;
 }
 .main{
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
 }
-/* #content::after{
+#content::after{
     content: "";
-    top: 50%;
-    left: 50%;
-    background-color: black;
-
-} */
+    height: 45rem;
+    width: 55rem;
+    background: linear-gradient(180deg, transparent, black);
+    position: absolute;
+    z-index: -1;
+}
 #content{
     width: 80vw;
     height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    margin: 2rem 0;
+    flex-flow: column;
+}
+.headline{
+    color: saddlebrown;
+    font-size: 2rem;
+    font-family: 'Water Brush', cursive, sans-serif;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+.about{
+    color: orangered;
+    font-size: 1.2rem;
+    font-weight: 300;
 }
