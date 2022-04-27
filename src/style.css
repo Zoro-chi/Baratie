@@ -85,16 +85,19 @@ a{
     flex-flow: column;
 }
 .headline{
-    color: saddlebrown;
+    color: orangered;
     font-size: 2rem;
     font-family: 'Water Brush', cursive, sans-serif;
     font-weight: 900;
     letter-spacing: 3px;
 }
 .about{
-    color: orangered;
+    color: saddlebrown;
     font-size: 1.2rem;
     font-weight: 300;
+}
+.span{
+    color: red;
 }
 ul li a:hover{
     text-decoration: underline 7px solid firebrick;
@@ -111,13 +114,31 @@ ul li a:hover{
     display: flex;
     flex-flow: column wrap;
     align-items: baseline;
+    gap: 2rem;
 }
 .phone{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1.3rem;
-    color: darkgoldenrod;
+    color: orangered;
     font-size: 1.5rem;
-    font-family: 'Pacifico', sans-serif;
+    font-family: 'emoji';
+}
+.addandicon{
+    display: flex;
+    gap: 1rem;
+    color: orangered;
+    font-size: 1.5rem;
+    font-family: 'emoji';
+}
+.address{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1.3rem;
+}
+.map{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }

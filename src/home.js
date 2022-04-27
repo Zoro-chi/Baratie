@@ -3,6 +3,8 @@ const content = document.querySelector("#content")
 
 const home = () => {
 
+    content.textContent = ""
+
     const mainContainer = document.createElement("div")
     mainContainer.classList.add("main")
     const imgDiv = document.createElement("div")
@@ -16,7 +18,10 @@ const home = () => {
     const overlay = document.createElement("div")
     overlay.classList.add("overlay")
     const name = document.createElement("h1")
+    
 
+
+    
 
     image.src = "../assets/chef1.jpg"
     imgDiv.appendChild(image)
@@ -25,7 +30,7 @@ const home = () => {
     headline.textContent = "The best Sushi in the 'ALL BLUE'"
     mainContainer.appendChild(headline)
 
-    about.textContent = "If you are hungry come! Eat! Have your fill! We serve everyone equally, at our low affordable prices"
+    about.textContent = "If you're hungry? Come, EAT! Have your fill! We serve everyone equally, at our low prices"
     mainContainer.appendChild(about)
 
     name.textContent = "Baratie"

@@ -33,13 +33,17 @@ const contact = () => {
     addressMap.src = "../assets/map.jpg"
     const addressMapDiv = document.createElement("div")
     addressMapDiv.classList.add("map")
+    const addandicon = document.createElement("div")
+    addandicon.classList.add("addandicon")
 
     addressSpan.appendChild(addressIcon)
-    addressDiv.appendChild(addressSpan)
-    addressDiv.appendChild(address)
+    addandicon.appendChild(addressSpan)
+    addandicon.appendChild(address)
+    addressDiv.appendChild(addandicon)
     addressMapDiv.appendChild(addressMap)
     addressDiv.appendChild(addressMapDiv)
-    // content.appendChild(addressDiv)
+    contactMainDiv.appendChild(addressDiv)
+    
 
 
 
