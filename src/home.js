@@ -8,6 +8,7 @@ const home = () => {
     const imgDiv = document.createElement("div")
     imgDiv.classList.add("img")
     const image = document.createElement("img")
+    image.classList.add("welcome")
     const headline = document.createElement("h2")
     headline.classList.add("headline")
     const about = document.createElement("p")
