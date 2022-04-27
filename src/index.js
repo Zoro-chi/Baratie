@@ -1,6 +1,8 @@
 import {home} from "./home"
 import {contact} from "./contact"
 
+let page = "home"
+
 
 const header = document.querySelector("#header")
 const navBar = document.createElement("ul")
@@ -33,19 +35,50 @@ header.appendChild(navBar)
 const changePage = (() => {
 
     homeTab.addEventListener("click", ()=>{
-        home()
+        if (page !== "home"){
+            home()
+            page = "home"
+            pageMarker()
+        }
     })
 
     menuTab.addEventListener("click", ()=>{
-        menu()
+        if (page !== "menu"){
+            menu()
+            page = "menu"
+            pageMarker()
+        }
     })
 
     contactTab.addEventListener("click", ()=>{
-        contact()
+        if (page !== "contact"){
+            contact()
+            page = "contact"
+            pageMarker()
+        }
     })
 
 })()
 
+const pageMarker = () =>{
+    if (page === "home"){
+        homeLink.classList.add("page-marker")
+        menuLink.classList.remove("page-marker")
+        contactLink.classList.remove("page-marker")
+    }
+    if (page === "menu"){
+        menuLink.classList.add("page-marker")
+        homeLink.classList.remove("page-marker")
+        contactLink.classList.remove("page-marker")
+    }
+    if (page === "contact"){
+        contactLink.classList.add("page-marker")
+        homeLink.classList.remove("page-marker")
+        menuLink.classList.remove("page-marker")
+    }
+}
+
+pageMarker()
 home()
 
 console.log("Hello World!")
