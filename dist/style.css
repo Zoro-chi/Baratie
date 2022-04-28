@@ -62,7 +62,7 @@ a{
     background: linear-gradient(180deg, transparent, black);
     position: absolute;
     z-index: -10;
-    margin-top: 3rem;
+    margin-top: 10rem;
 }
 #content{
     width: 80vw;
@@ -136,7 +136,7 @@ ul li a:hover{
 
 .menuOverlay{
     height: 45rem;
-    margin-top: 3rem;
+    margin-top: 10rem;
     background-color: black;
     opacity: 0.85;
     display: flex;

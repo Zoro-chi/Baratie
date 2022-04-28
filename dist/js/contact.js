@@ -11,7 +11,7 @@ const contact = () => {
     phoneDiv.classList.add("phone")
     const phoneIcon = document.createElement("img")
 
-    phoneIcon.src = "../dist/assets/phone.png"
+    phoneIcon.src = "./assets/phone.png"
     const phoneSpan = document.createElement("span")
     const phone = document.createElement("h2")
     phone.textContent = "+234-567-8909-123"
