@@ -23,7 +23,7 @@ const home = () => {
 
     
 
-    image.src = "../assets/chef1.jpg"
+    image.src = "../dist/assets/chef1.jpg"
     imgDiv.appendChild(image)
     mainContainer.appendChild(imgDiv)
 
