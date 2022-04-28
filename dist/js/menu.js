@@ -13,7 +13,7 @@ const menu = () =>{
     const setA = document.createElement("div")
     setA.classList.add("card")
     const setAImg = document.createElement("img")
-    setAImg.src = "../dist/assets/menu/setG.jpg"
+    setAImg.src = "./assets/menu/setG.jpg"
     setAImg. classList.add("setAImg")
     const setAText = document.createElement("h2")
     setAText.classList.add("setAText")
@@ -26,7 +26,7 @@ const menu = () =>{
     const setB = document.createElement("div")
     setB.classList.add("card")
     const setBImg = document.createElement("img")
-    setBImg.src = "../dist/assets/menu/setB.jpg"
+    setBImg.src = "./assets/menu/setB.jpg"
     setBImg. classList.add("setBImg")
     const setBText = document.createElement("h2")
     setBText.classList.add("setBText")
@@ -39,7 +39,7 @@ const menu = () =>{
     const setC = document.createElement("div")
     setC.classList.add("card")
     const setCImg = document.createElement("img")
-    setCImg.src = "../dist/assets/menu/setC.jpg"
+    setCImg.src = "./assets/menu/setC.jpg"
     setCImg. classList.add("setCImg")
     const setCText = document.createElement("h2")
     setCText.classList.add("setCText")
@@ -52,7 +52,7 @@ const menu = () =>{
     const setD = document.createElement("div")
     setD.classList.add("card")
     const setDImg = document.createElement("img")
-    setDImg.src = "../dist/assets/menu/setD.jpg"
+    setDImg.src = "./assets/menu/setD.jpg"
     setDImg. classList.add("setDImg")
     const setDText = document.createElement("h2")
     setDText.classList.add("setDText")
@@ -65,7 +65,7 @@ const menu = () =>{
     const setE = document.createElement("div")
     setE.classList.add("card")
     const setEImg = document.createElement("img")
-    setEImg.src = "../dist/assets/menu/setE.jpg"
+    setEImg.src = "./assets/menu/setE.jpg"
     setEImg. classList.add("setEImg")
     const setEText = document.createElement("h2")
     setEText.classList.add("setEText")
@@ -78,7 +78,7 @@ const menu = () =>{
     const setF = document.createElement("div")
     setF.classList.add("card")
     const setFImg = document.createElement("img")
-    setFImg.src = "../dist/assets/menu/setF.jpg"
+    setFImg.src = "./assets/menu/setF.jpg"
     setFImg. classList.add("setFImg")
     const setFText = document.createElement("h2")
     setFText.classList.add("setFText")
@@ -91,7 +91,7 @@ const menu = () =>{
     const soju = document.createElement("div")
     soju.classList.add("card")
     const sojuImg = document.createElement("img")
-    sojuImg.src = "../dist/assets/menu/soju2.jpg"
+    sojuImg.src = "./assets/menu/soju2.jpg"
     sojuImg. classList.add("sojuImg")
     const sojuText = document.createElement("h2")
     sojuText.classList.add("sojuText")
@@ -104,7 +104,7 @@ const menu = () =>{
     const cola = document.createElement("div")
     cola.classList.add("card")
     const colaImg = document.createElement("img")
-    colaImg.src = "../dist/assets/menu/cola.jpg"
+    colaImg.src = "./assets/menu/cola.jpg"
     colaImg. classList.add("colaImg")
     const colaText = document.createElement("h2")
     colaText.classList.add("colaText")
@@ -117,7 +117,7 @@ const menu = () =>{
     const sake = document.createElement("div")
     sake.classList.add("card")
     const sakeImg = document.createElement("img")
-    sakeImg.src = "../dist/assets/menu/sake.jpg"
+    sakeImg.src = "./assets/menu/sake.jpg"
     sakeImg. classList.add("sakeImg")
     const sakeText = document.createElement("h2")
     sakeText.classList.add("sakeText")

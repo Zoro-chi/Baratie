@@ -25,12 +25,12 @@ const contact = () => {
     const addressDiv = document.createElement("div")
     addressDiv.classList.add("address")
     const addressIcon = document.createElement("img")
-    addressIcon.src = "../dist/assets/address.png"
+    addressIcon.src = "./assets/address.png"
     const addressSpan = document.createElement("span")
     const address = document.createElement("h2")
     address.textContent = "Sambas region, in East blue, close to the Grand line entrance."
     const addressMap = document.createElement("img")
-    addressMap.src = "../dist/assets/map.jpg"
+    addressMap.src = "./assets/map.jpg"
     const addressMapDiv = document.createElement("div")
     addressMapDiv.classList.add("map")
     const addandicon = document.createElement("div")
