@@ -1,5 +1,7 @@
 import {home} from "./home"
 import {contact} from "./contact"
+import {menu} from "./menu"
+
 
 let page = "home"
 
@@ -80,5 +82,3 @@ const pageMarker = () =>{
 
 pageMarker()
 home()
-
-console.log("Hello World!")

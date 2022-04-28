@@ -43,13 +43,6 @@ const contact = () => {
     addressMapDiv.appendChild(addressMap)
     addressDiv.appendChild(addressMapDiv)
     contactMainDiv.appendChild(addressDiv)
-    
-
-
-
-
-
 }
-
 
 export {contact}
