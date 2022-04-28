@@ -178,5 +178,24 @@ ul li a:hover{
 /* ----------------------------------- MEDIA QUERY ------------------------------------------------- */
 
 @media all and (max-width: 425px) {
-    
+    #header{
+        width: 220vw;
+        justify-content: center;
+    }
+    ul{
+        width: 60%;
+        justify-content: space-around;
+        margin-left: 15rem;
+    }
+    #content{
+        width: 220vw;
+        height: 130vh;
+    }
+    #content::after{
+        height: 120rem;
+        width: 60rem;
+    }
+    .main{
+        margin-left: 14rem;
+    }
 }
