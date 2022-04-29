@@ -38,7 +38,7 @@ const home = () => {
     
     content.appendChild(mainContainer)
     content.appendChild(overlay)
-
+    
 }
 
 export {home} 
