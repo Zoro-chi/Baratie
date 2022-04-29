@@ -135,8 +135,8 @@ ul li a:hover{
 /* --------------------------------------------    MENU    ------------------------------------------------ */
 
 .menuOverlay{
-    height: 45rem;
-    margin-top: 10rem;
+    height: fit-content;
+    margin-top: -10rem;
     background-color: black;
     opacity: 0.85;
     display: flex;
@@ -144,14 +144,15 @@ ul li a:hover{
     align-items: center;
 }
 .menuDiv{
-    height: 700px;
-    width: 850px;
-    border: 3px solid saddlebrown;
+    height: fit-content;
+    width: 130vw;
+    border: 5px solid saddlebrown;
     display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
+    flex-flow: column nowrap;
+    justify-content: space-between;
     align-items: center;
-    gap: 1.3rem;
+    gap: 5rem;
+    margin-top: 5rem;
 }
 .card{
     height: 200px;
@@ -204,9 +205,9 @@ ul li a:hover{
         margin-top: 28rem;
     }
     .menuOverlay{
-        height: 250vh;
+        height: fit-content;
         width: 250vw;
-        margin-top: -20rem;
+        margin-top: 4rem;
     }
     .menuDiv{
         height: fit-content;
@@ -218,7 +219,7 @@ ul li a:hover{
         align-items: center;
         gap: 5rem;
         margin-left: 15rem;
-        margin-top: -10rem;
+        margin-top: 35rem;
         padding: 3rem;
     }
     .contactMainDiv{
