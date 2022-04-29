@@ -177,9 +177,9 @@ ul li a:hover{
 
 /* ----------------------------------- MEDIA QUERY ------------------------------------------------- */
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 465px) {
     #header{
-        width: 220vw;
+        width: 250vw;
         justify-content: center;
     }
     ul{
@@ -188,8 +188,9 @@ ul li a:hover{
         margin-left: 15rem;
     }
     #content{
-        width: 220vw;
-        height: 130vh;
+        width: 250vw;
+        height: fit-content;
+        margin-top: 22rem;
     }
     #content::after{
         height: 120rem;
@@ -197,5 +198,41 @@ ul li a:hover{
     }
     .main{
         margin-left: 14rem;
+        margin-top: 10rem;
+    }
+    .overlay{
+        margin-top: 28rem;
+    }
+    .menuOverlay{
+        height: 250vh;
+        width: 250vw;
+        margin-top: -20rem;
+    }
+    .menuDiv{
+        height: fit-content;
+        width: 130vw;
+        border: 5px solid saddlebrown;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5rem;
+        margin-left: 15rem;
+        margin-top: -10rem;
+        padding: 3rem;
+    }
+    .contactMainDiv{
+        height: 60rem;
+        gap: 7rem;
+    }
+    .phone{
+        margin-left: 10rem;
+    }
+    .addandicon{
+        width: 130vw;
+        margin-left: 18rem;
+    }
+    .map{
+        margin-left: 8rem;
     }
 }
