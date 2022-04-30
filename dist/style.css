@@ -229,6 +229,7 @@ ul li a:hover{
     .contactMainDiv{
         height: 60rem;
         gap: 7rem;
+        margin-left: 10rem;
     }
     .phone{
         margin-left: 10rem;
