@@ -18,7 +18,9 @@ body{
     justify-content: center;
     background-color: black;
     opacity: 0.9;
-    height: 10vh;
+    height: 130px;
+    position: sticky;
+    top: 0;
 }
 .welcome{
     height: 300px;
@@ -71,7 +73,7 @@ a{
     justify-content: center;
     align-items: center;
     position: relative;
-    margin: 2rem 0;
+    margin-top: 10rem;
     flex-flow: column;
 }
 .headline{
@@ -179,25 +181,26 @@ ul li a:hover{
 
 @media all and (max-width: 465px) {
     #header{
-        width: 250vw;
+        width: 300vw;
         justify-content: center;
+        margin-left: 8rem;
     }
     ul{
-        width: 60%;
+        width: 69%;
         justify-content: space-around;
-        margin-left: 15rem;
+        margin-left: 19rem;
     }
     #content{
-        width: 250vw;
+        width: 300vw;
         height: fit-content;
         margin-top: 22rem;
     }
     #content::after{
         height: 120rem;
-        width: 60rem;
+        width: 330vw;
     }
     .main{
-        margin-left: 14rem;
+        margin-left: 19rem;
         margin-top: 10rem;
     }
     .overlay{
@@ -205,8 +208,9 @@ ul li a:hover{
     }
     .menuOverlay{
         height: fit-content;
-        width: 250vw;
-        margin-top: -20rem;
+        width: 300vw;
+        margin-top: -13rem;
+        margin-left: 7rem;
     }
     .menuDiv{
         height: fit-content;
